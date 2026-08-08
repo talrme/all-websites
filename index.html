@@ -4,17 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>All Websites</title>
-  <link rel="stylesheet" href="shared.css">
-  <link rel="stylesheet" href="prototype-styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="app"></div>
   <script src="websites-data.js"></script>
-  <script src="shared-app.js"></script>
-  <script src="prototype-configs.js"></script>
-  <script src="active-prototype.js"></script>
+  <script src="app.js"></script>
   <script>
-    window.WebsiteLanding.boot(window.getAllWebsitePrototypeConfig(window.ACTIVE_WEBSITE_PROTOTYPE));
+    window.WebsiteLanding.boot({
+      id: "all-websites",
+      title: "All Websites",
+      kicker: "Arcade Grid",
+      subtitle: "A chunky, colorful launch board for the tools, dashboards, experiments, and family sites in Websites For Fun.",
+      footer: "A launch page for the Websites For Fun folder.",
+      settingsTitle: "All Websites Settings",
+      ambient: "arcade",
+      artVariant: "arcade",
+      tilt: 0.8,
+      defaultDensity: "cozy",
+      defaultMotion: "full",
+      themes: [
+        { id: "arcade-cabinet", label: "Cabinet", swatch: "linear-gradient(135deg, #111827, #facc15, #ef4444)" },
+        { id: "arcade-day", label: "Day", swatch: "linear-gradient(135deg, #fefce8, #38bdf8, #f97316)" },
+        { id: "arcade-neon", label: "Neon", swatch: "linear-gradient(135deg, #020617, #22d3ee, #ec4899)" }
+      ]
+    });
   </script>
 </body>
 </html>

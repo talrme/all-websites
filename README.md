@@ -1,15 +1,19 @@
-# All Websites Landing Page Prototypes
+# All Websites
 
-Open `prototypes.html` to compare the five directions.
+**Live site:** [https://talrme.github.io/all-websites/](https://talrme.github.io/all-websites/)
 
-Open `index.html` to see the currently promoted version.
+A colorful arcade-style landing page for the websites in the `Websites For Fun` folder.
 
-Promote a prototype without renaming files:
+## Run Locally
+
+Open `index.html` in a browser, or serve the folder:
 
 ```bash
-./promote.sh prototype-3-control-deck
+python3 -m http.server 8080
 ```
 
-That command only updates `active-prototype.js`. The prototype folders stay intact for later comparison.
+Then open `http://localhost:8080`.
 
-Add or remove website tiles in `websites-data.js`.
+## Update Tiles
+
+Add, remove, or edit website tiles in `websites-data.js`.

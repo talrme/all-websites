@@ -41,7 +41,7 @@
   function boot(config) {
     const root = document.getElementById("app");
     if (!root || !window.WebsiteAtlas) return;
-    document.title = config.title ? `${config.title} - ${config.kicker || "Prototype"}` : document.title;
+    document.title = config.title ? `${config.title} - ${config.kicker || "Websites For Fun"}` : document.title;
 
     const defaults = {
       theme: config.themes[0].id,
@@ -103,7 +103,7 @@
           </section>
 
           <main class="project-grid ${escapeHtml(config.gridClass || "")}" id="project-grid"></main>
-          <footer class="site-footer">${escapeHtml(config.footer || "Prototype landing page for the Websites For Fun folder.")}</footer>
+          <footer class="site-footer">${escapeHtml(config.footer || "Landing page for the Websites For Fun folder.")}</footer>
         </div>
 
         <div class="settings-backdrop" id="settings-modal" hidden>
@@ -262,7 +262,7 @@
           const project = getProjectById(card.dataset.projectId);
           const canvas = card.querySelector("canvas");
           if (project && canvas) {
-            window.WebsiteAtlas.drawProjectArt(canvas, project, config.id);
+            window.WebsiteAtlas.drawProjectArt(canvas, project, config.artVariant || config.id);
           }
         });
       });
@@ -375,7 +375,7 @@
           const project = getProjectById(card.dataset.projectId);
           const canvas = card.querySelector("canvas");
           if (project && canvas) {
-            window.WebsiteAtlas.drawProjectArt(canvas, project, config.id);
+            window.WebsiteAtlas.drawProjectArt(canvas, project, config.artVariant || config.id);
           }
         });
       });

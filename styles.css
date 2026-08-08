@@ -645,3 +645,88 @@ a {
     font-size: 2.35rem;
   }
 }
+
+:root[data-theme="arcade-cabinet"] {
+  --bg: #111827;
+  --bg-2: #1f2937;
+  --surface: rgba(17, 24, 39, 0.92);
+  --surface-strong: #111827;
+  --text: #fff7ed;
+  --muted: #fbd38d;
+  --line: rgba(255, 255, 255, 0.18);
+  --accent: #facc15;
+  --accent-2: #ef4444;
+  --accent-3: #22d3ee;
+}
+
+:root[data-theme="arcade-day"] {
+  --bg: #fefce8;
+  --bg-2: #bae6fd;
+  --surface: rgba(255, 255, 255, 0.92);
+  --surface-strong: #ffffff;
+  --text: #172033;
+  --muted: #5d6273;
+  --line: rgba(23, 32, 51, 0.18);
+  --accent: #f97316;
+  --accent-2: #38bdf8;
+  --accent-3: #ec4899;
+}
+
+:root[data-theme="arcade-neon"] {
+  --bg: #020617;
+  --bg-2: #18111f;
+  --surface: rgba(2, 6, 23, 0.88);
+  --surface-strong: #050816;
+  --text: #f8fafc;
+  --muted: #cbd5e1;
+  --line: rgba(255, 255, 255, 0.2);
+  --accent: #22d3ee;
+  --accent-2: #ec4899;
+  --accent-3: #a3e635;
+}
+
+body[data-prototype="all-websites"] .app-shell {
+  width: min(1160px, calc(100% - 24px));
+}
+
+body[data-prototype="all-websites"] .site-header {
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--accent) 18%, transparent), transparent),
+    var(--surface);
+  box-shadow: 8px 8px 0 color-mix(in srgb, var(--accent-2) 50%, transparent);
+}
+
+body[data-prototype="all-websites"] .site-title {
+  text-transform: uppercase;
+}
+
+body[data-prototype="all-websites"] .project-card {
+  border-width: 2px;
+  box-shadow: 6px 6px 0 color-mix(in srgb, var(--accent) 60%, transparent);
+}
+
+body[data-prototype="all-websites"] .project-card__art::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 5px);
+  pointer-events: none;
+  z-index: 3;
+}
+
+body[data-prototype="all-websites"] .project-card:hover {
+  box-shadow: 9px 9px 0 color-mix(in srgb, var(--accent-2) 68%, transparent);
+}
+
+body[data-prototype="all-websites"] .chip[aria-pressed="true"] {
+  color: #111827;
+}
+
+@media (max-width: 760px) {
+  body[data-prototype="all-websites"] .site-header {
+    box-shadow: 4px 4px 0 color-mix(in srgb, var(--accent-2) 48%, transparent);
+  }
+}
