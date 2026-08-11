@@ -122,6 +122,17 @@
       accent: "#f43f5e"
     },
     {
+      id: "levis-bar-mitzvah-donations",
+      name: "Levi's Bar Mitzvah Donations",
+      short: "LEV",
+      category: "Family",
+      description: "A photo-rich Bar Mitzvah giving site with five design directions, donation choices, and a form for splitting the $500 gift.",
+      url: "https://talrme.github.io/levis-bar-mitzvah-donations/",
+      source: "Live",
+      visual: "family",
+      accent: "#0f766e"
+    },
+    {
       id: "census-births",
       name: "Census Births",
       short: "CEN",
