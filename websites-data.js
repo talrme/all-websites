@@ -89,6 +89,17 @@
       accent: "#f59e0b"
     },
     {
+      id: "due-date",
+      name: "Due Date",
+      short: "DUE",
+      category: "Data",
+      description: "An interactive due-date probability chart with first-baby and second-plus birth timing curves.",
+      url: "https://talrme.github.io/due-date/",
+      source: "Live",
+      visual: "data",
+      accent: "#2a9d8f"
+    },
+    {
       id: "earthquakes",
       name: "Recent Quakes",
       short: "EQ",
