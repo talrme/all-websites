@@ -67,6 +67,17 @@
       accent: "#6366f1"
     },
     {
+      id: "paths-to-peace",
+      name: "Paths to Peace",
+      short: "PEA",
+      category: "Wellness",
+      description: "A phone-first collection of tiny meditative practices with shuffled favorites, image-backed cards, and a grouped list.",
+      url: "https://talrme.github.io/paths-to-peace/",
+      source: "Live",
+      visual: "journal",
+      accent: "#2f855a"
+    },
+    {
       id: "miris-mix-and-match",
       name: "Miri's Mix & Match",
       short: "MIX",
@@ -182,8 +193,8 @@
       short: "BAB",
       category: "Family",
       description: "A milestone tracker for early development with age filtering, categories, birthday dates, and CDC links.",
-      url: "../../baby-data/",
-      source: "Local",
+      url: "https://talrme.github.io/baby-data/",
+      source: "Live",
       visual: "family",
       accent: "#fb7185"
     },
