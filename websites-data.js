@@ -78,6 +78,17 @@
       accent: "#2f855a"
     },
     {
+      id: "colds",
+      name: "Colds Last for a Week",
+      short: "CLD",
+      category: "Wellness",
+      description: "A playful cold timeline with adult and kid guidance, symptom-based active ingredient tips, settings, and a sick-day anthem.",
+      url: "https://talrme.github.io/colds/",
+      source: "Live",
+      visual: "journal",
+      accent: "#2d8580"
+    },
+    {
       id: "miris-mix-and-match",
       name: "Miri's Mix & Match",
       short: "MIX",
