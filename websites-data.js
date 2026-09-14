@@ -89,6 +89,17 @@
       accent: "#2d8580"
     },
     {
+      id: "workout",
+      name: "workout",
+      short: "FIT",
+      category: "Wellness",
+      description: "A Google-Sheet-backed workout tracker for machine targets, setup notes, set logs, and optional effort notes.",
+      url: "https://talrme.github.io/workout/",
+      source: "Live",
+      visual: "score",
+      accent: "#31785c"
+    },
+    {
       id: "miris-mix-and-match",
       name: "Miri's Mix & Match",
       short: "MIX",
