@@ -221,6 +221,17 @@
       accent: "#fb7185"
     },
     {
+      id: "sleep-tracker",
+      name: "Sleep Tracker",
+      short: "ZZZ",
+      category: "Family",
+      description: "A phone-first newborn sleep tracker for Tal and Sophie with quick adds, shared Sheet sync, and per-phone ordering.",
+      url: "https://talrme.github.io/sleep-tracker/",
+      source: "Live",
+      visual: "family",
+      accent: "#7cc7ff"
+    },
+    {
       id: "scoreboard",
       name: "Scoreboard",
       short: "SCR",
