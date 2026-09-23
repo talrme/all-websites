@@ -232,6 +232,17 @@
       accent: "#7cc7ff"
     },
     {
+      id: "how-to-help",
+      name: "How to Help",
+      short: "HLP",
+      category: "Family",
+      description: "A phone-first newborn help board powered by a published Google Doc, with expandable tasks, local ordering, QR sharing, and settings.",
+      url: "https://talrme.github.io/how-to-help/",
+      source: "Live",
+      visual: "family",
+      accent: "#168977"
+    },
+    {
       id: "scoreboard",
       name: "Scoreboard",
       short: "SCR",
