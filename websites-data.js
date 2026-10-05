@@ -151,6 +151,7 @@
       category: "Data",
       description: "A browser-cached CDC wastewater signal board for Bay Area COVID, flu, and RSV trends.",
       url: "https://talrme.github.io/wastewater-watch/",
+      icon: "https://talrme.github.io/wastewater-watch/COVID.png",
       source: "Live",
       visual: "data",
       accent: "#7cc9b5",
