@@ -13,16 +13,24 @@
   <script>
     window.WebsiteLanding.boot({
       id: "all-websites",
+      storageKey: "all-websites:simple-v2",
       title: "All Websites",
-      kicker: "Arcade Grid",
-      subtitle: "A chunky, colorful launch board for the tools, dashboards, experiments, and family sites in Websites For Fun.",
+      subtitle: "",
       footer: "A launch page for the Websites For Fun folder.",
       settingsTitle: "All Websites Settings",
-      ambient: "arcade",
-      artVariant: "arcade",
-      tilt: 0.8,
-      defaultDensity: "cozy",
-      defaultMotion: "full",
+      ambient: "",
+      artVariant: "minimal",
+      tilt: 0,
+      defaultDensity: "compact",
+      defaultMotion: "still",
+      showShuffle: false,
+      showSettings: false,
+      showCategories: false,
+      showCount: false,
+      defaultSettings: {
+        showDetails: true,
+        showSource: false
+      },
       themes: [
         { id: "arcade-cabinet", label: "Cabinet", swatch: "linear-gradient(135deg, #111827, #facc15, #ef4444)" },
         { id: "arcade-day", label: "Day", swatch: "linear-gradient(135deg, #fefce8, #38bdf8, #f97316)" },

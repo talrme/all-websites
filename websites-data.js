@@ -75,7 +75,8 @@
       url: "https://talrme.github.io/paths-to-peace/",
       source: "Live",
       visual: "journal",
-      accent: "#2f855a"
+      accent: "#2f855a",
+      recentRank: 60
     },
     {
       id: "colds",
@@ -86,7 +87,8 @@
       url: "https://talrme.github.io/colds/",
       source: "Live",
       visual: "journal",
-      accent: "#2d8580"
+      accent: "#2d8580",
+      recentRank: 80
     },
     {
       id: "workout",
@@ -97,7 +99,8 @@
       url: "https://talrme.github.io/workout/",
       source: "Live",
       visual: "score",
-      accent: "#31785c"
+      accent: "#31785c",
+      recentRank: 85
     },
     {
       id: "miris-mix-and-match",
@@ -130,7 +133,8 @@
       url: "https://talrme.github.io/due-date/",
       source: "Live",
       visual: "data",
-      accent: "#2a9d8f"
+      accent: "#2a9d8f",
+      recentRank: 75
     },
     {
       id: "wastewater-watch",
@@ -141,7 +145,8 @@
       url: "https://talrme.github.io/wastewater-watch/",
       source: "Live",
       visual: "data",
-      accent: "#7cc9b5"
+      accent: "#7cc9b5",
+      recentRank: 100
     },
     {
       id: "earthquakes",
@@ -185,7 +190,8 @@
       url: "https://talrme.github.io/levis-bar-mitzvah-donations/",
       source: "Live",
       visual: "family",
-      accent: "#0f766e"
+      accent: "#0f766e",
+      recentRank: 70
     },
     {
       id: "census-births",
@@ -229,7 +235,8 @@
       url: "https://talrme.github.io/baby-data/",
       source: "Live",
       visual: "family",
-      accent: "#fb7185"
+      accent: "#fb7185",
+      recentRank: 65
     },
     {
       id: "sleep-tracker",
@@ -240,7 +247,8 @@
       url: "https://talrme.github.io/sleep-tracker/",
       source: "Live",
       visual: "family",
-      accent: "#7cc7ff"
+      accent: "#7cc7ff",
+      recentRank: 90
     },
     {
       id: "how-to-help",
@@ -251,7 +259,8 @@
       url: "https://talrme.github.io/how-to-help/",
       source: "Live",
       visual: "family",
-      accent: "#168977"
+      accent: "#168977",
+      recentRank: 95
     },
     {
       id: "scoreboard",
