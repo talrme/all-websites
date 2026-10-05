@@ -229,10 +229,15 @@
       const target = settings.openMode === "new" ? ' target="_blank" rel="noreferrer"' : "";
       const tilt = ((index % 7) - 3) * (config.tilt || 0.6);
       const delay = `${(index % 8) * -0.36}s`;
+      const fallback = project.short || project.name.slice(0, 3).toUpperCase();
+      const markClass = project.icon ? "project-card__mark project-card__mark--icon" : "project-card__mark";
+      const markContent = project.icon
+        ? `<img src="${escapeHtml(project.icon)}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true; this.nextElementSibling.hidden=false; this.parentElement.classList.remove('project-card__mark--icon');"><span hidden>${escapeHtml(fallback)}</span>`
+        : `<span>${escapeHtml(fallback)}</span>`;
       return `
         <a class="project-card" href="${escapeHtml(project.url)}"${target} data-project-id="${escapeHtml(project.id)}" style="--accent: ${escapeHtml(project.accent)}; --i: ${index}; --tilt: ${tilt}deg; --delay: ${delay};">
-          <div class="project-card__mark" aria-hidden="true">
-            <span>${escapeHtml(project.short || project.name.slice(0, 3).toUpperCase())}</span>
+          <div class="${markClass}" aria-hidden="true">
+            ${markContent}
           </div>
           <div class="project-card__body">
             <div class="project-card__meta">

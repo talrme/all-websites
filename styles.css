@@ -295,6 +295,22 @@ a {
     var(--accent);
   color: #ffffff;
   box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent) 45%, transparent);
+  overflow: hidden;
+}
+
+.project-card__mark--icon {
+  background: color-mix(in srgb, var(--surface-strong) 86%, var(--accent) 14%);
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--accent) 34%, transparent),
+    0 4px 12px rgba(22, 24, 31, 0.12);
+}
+
+.project-card__mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
 }
 
 .project-card__mark span {
