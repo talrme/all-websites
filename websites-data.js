@@ -133,6 +133,17 @@
       accent: "#2a9d8f"
     },
     {
+      id: "wastewater-watch",
+      name: "Wastewater Watch",
+      short: "WTR",
+      category: "Data",
+      description: "A browser-cached CDC wastewater signal board for Bay Area COVID, flu, and RSV trends.",
+      url: "https://talrme.github.io/wastewater-watch/",
+      source: "Live",
+      visual: "data",
+      accent: "#7cc9b5"
+    },
+    {
       id: "earthquakes",
       name: "Recent Quakes",
       short: "EQ",
