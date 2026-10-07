@@ -274,6 +274,19 @@
       recentRank: 95
     },
     {
+      id: "countdown",
+      name: "Countdown",
+      short: "CD",
+      category: "Family",
+      description: "A kid-friendly countdown board for birthdays, holidays, trips, camp, and far-off big days with Sheet-backed boards.",
+      url: "https://talrme.github.io/countdown/",
+      icon: "https://talrme.github.io/countdown/countdown-icon.png",
+      source: "Live",
+      visual: "clock",
+      accent: "#177ddc",
+      recentRank: 97
+    },
+    {
       id: "scoreboard",
       name: "Scoreboard",
       short: "SCR",
