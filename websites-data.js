@@ -102,7 +102,7 @@
       category: "Wellness",
       description: "A Google-Sheet-backed workout tracker for machine targets, setup notes, set logs, and optional effort notes.",
       url: "https://talrme.github.io/workout/",
-      icon: "https://talrme.github.io/workout/dumbbell.png?v=20261013",
+      icon: "https://talrme.github.io/workout/dumbell-2.png?v=20261014",
       source: "Live",
       visual: "score",
       accent: "#31785c",
