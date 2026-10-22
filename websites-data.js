@@ -1,6 +1,19 @@
 (function () {
   const projects = [
     {
+      id: "world-flavors",
+      name: "World Flavors",
+      short: "FOOD",
+      category: "Food",
+      description: "93 dishes across 31 countries and regions: easy home recipes, Instant Pot and slow cooker favorites, and must-try takeout.",
+      url: "https://talrme.github.io/world-flavors/",
+      icon: "https://talrme.github.io/world-flavors/assets/food-icon.png",
+      source: "Live",
+      visual: "data",
+      accent: "#31734b",
+      recentRank: 110
+    },
+    {
       id: "music",
       name: "Music",
       short: "MUS",
