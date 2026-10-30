@@ -5,7 +5,7 @@
       name: "Huck",
       short: "HUCK",
       category: "Family",
-      description: "A shared baby sleep tracker with nap timers, wake windows, and visual sleep history. Ten designs to explore.",
+      description: "A shared baby sleep tracker with nap timers, wake windows, visual sleep history, and customizable styles and colors.",
       url: "https://talrme.github.io/huck/",
       icon: "https://talrme.github.io/huck/shared/app-icon.png?v=20261030-pacifier",
       source: "Live",
