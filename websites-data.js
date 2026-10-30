@@ -1,6 +1,19 @@
 (function () {
   const projects = [
     {
+      id: "huck",
+      name: "Huck",
+      short: "HUCK",
+      category: "Family",
+      description: "A shared baby sleep tracker with nap timers, wake windows, and visual sleep history. Ten designs to explore.",
+      url: "https://talrme.github.io/huck/",
+      icon: "https://talrme.github.io/huck/shared/app-icon.png?v=20261030-pacifier",
+      source: "Live",
+      visual: "data",
+      accent: "#26765d",
+      recentRank: 120
+    },
+    {
       id: "world-flavors",
       name: "World Flavors",
       short: "FOOD",
