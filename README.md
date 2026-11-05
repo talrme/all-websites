@@ -17,3 +17,5 @@ Then open `http://localhost:8080`.
 ## Update Tiles
 
 Add, remove, or edit website tiles in `websites-data.js`.
+
+Preferences is included with its live game link and four-horizontal-bar app icon. Its recent rank puts it first in the default ordering. Bump the data script's version in `index.html` when updating the directory so browsers pick up additions.

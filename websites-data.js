@@ -1,6 +1,19 @@
 (function () {
   const projects = [
     {
+      id: "preferences",
+      name: "Preferences",
+      short: "PREF",
+      category: "Games",
+      description: "A phone-friendly dinner-table game: choose four topics, rank privately, guess together, and reveal favorites live.",
+      url: "https://talrme.github.io/preferences/",
+      icon: "https://talrme.github.io/preferences/shared/icon-192.png?v=20261105-horizontal",
+      source: "Live",
+      visual: "cards",
+      accent: "#377765",
+      recentRank: 130
+    },
+    {
       id: "huck",
       name: "Huck",
       short: "HUCK",
