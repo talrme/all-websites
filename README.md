@@ -18,4 +18,4 @@ Then open `http://localhost:8080`.
 
 Add, remove, or edit website tiles in `websites-data.js`.
 
-Languages is included with its live Metro Lines app link and globe app icon. Its recent rank puts it first in the default ordering, followed by Preferences. Bump the data script's version in `index.html` when updating the directory so browsers pick up additions.
+Languages is included with its live Metro Lines app link and globe app icon. Miri’s Books is included with the Paper Parade book-stack icon and is first in the default ordering, followed by Languages and Preferences. Bump the data script's version in `index.html` when updating the directory so browsers pick up additions.

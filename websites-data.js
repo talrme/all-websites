@@ -1,6 +1,19 @@
 (function () {
   const projects = [
     {
+      id: "books",
+      name: "Miri’s Books",
+      short: "BOOK",
+      category: "Family",
+      description: "Illustrated family storybooks with page flips, a little bookshelf, and saved favorites.",
+      url: "https://talrme.github.io/books/",
+      icon: "https://talrme.github.io/books/shared/icon-192.png?v=stack1",
+      source: "Live",
+      visual: "journal",
+      accent: "#ce4055",
+      recentRank: 150
+    },
+    {
       id: "languages",
       name: "Languages",
       short: "LANG",
