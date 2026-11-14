@@ -5,7 +5,7 @@
       name: "Languages",
       short: "LANG",
       category: "Learning",
-      description: "Explore local languages and useful phrases, with pronunciation, practice and saved favorites. Ten designs to try.",
+      description: "Explore local languages and useful phrases, with pronunciation, practice and saved favorites.",
       url: "https://talrme.github.io/languages/",
       icon: "https://talrme.github.io/languages/assets/icon-192.png",
       source: "Live",
