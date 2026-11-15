@@ -7,7 +7,7 @@
       category: "Family",
       description: "Illustrated family storybooks with page flips, a little bookshelf, and saved favorites.",
       url: "https://talrme.github.io/books/",
-      icon: "https://talrme.github.io/books/shared/icon-192.png?v=stack1",
+      icon: "https://talrme.github.io/books/shared/icon-192-v2.png",
       source: "Live",
       visual: "journal",
       accent: "#ce4055",
