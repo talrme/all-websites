@@ -1,6 +1,19 @@
 (function () {
   const projects = [
     {
+      id: "lists",
+      name: "Lists",
+      short: "LIST",
+      category: "Productivity",
+      description: "Personal and shared to-dos, groceries, movies, and household lists with Google sign-in and live syncing.",
+      url: "https://talrme.github.io/lists/",
+      icon: "https://talrme.github.io/lists/assets/icon-192.png",
+      source: "Live",
+      visual: "cards",
+      accent: "#285e47",
+      recentRank: 160
+    },
+    {
       id: "books",
       name: "Miri’s Books",
       short: "BOOK",
