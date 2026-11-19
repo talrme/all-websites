@@ -1,6 +1,19 @@
 (function () {
   const projects = [
     {
+      id: "haircut",
+      name: "Haircut",
+      short: "HAIR",
+      category: "Lifestyle",
+      description: "15 personal haircut previews with barber notes, styling routines, grow-out plans, and drag-to-rank favorites.",
+      url: "https://talrme.github.io/haircut/",
+      icon: "https://talrme.github.io/haircut/assets/icon-192.png",
+      source: "Live",
+      visual: "cards",
+      accent: "#25483e",
+      recentRank: 170
+    },
+    {
       id: "lists",
       name: "Lists",
       short: "LIST",
